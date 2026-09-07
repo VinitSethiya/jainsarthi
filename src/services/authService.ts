@@ -6,6 +6,6 @@ export const authService = {
   },
   verifyOtp: async (code: string) => {
     await new Promise((resolve) => setTimeout(resolve, 350));
-    return { verified: code.length === 6 };
+    return { verified: code.length === 4 };
   },
 };

@@ -18,4 +18,4 @@ npm start
 - `src/theme` — shared colours and design tokens
 - `src/types` — shared TypeScript types
 
-The OTP flow is deliberately mocked. Any six digits verify successfully; no network or backend is required.
+The OTP flow is deliberately mocked. Any four digits verify successfully; no network or backend is required.
